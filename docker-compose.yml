@@ -1,3 +1,8 @@
+x-arcane:
+  icon: https://cdn.jsdelivr.net/gh/selfhst/icons@main/svg/uptime-kuma.svg
+  urls:
+    - https://uptime.kuma.pet/
+
 services:
   uptime-kuma:
     image: louislam/uptime-kuma:2
@@ -7,3 +12,5 @@ services:
     ports:
       # <Host Port>:<Container Port>
       - "3002:3001"
+    labels:
+      com.getarcaneapp.arcane.icon: https://cdn.jsdelivr.net/gh/selfhst/icons@main/svg/uptime-kuma.svg
