@@ -11,6 +11,6 @@ services:
       - ./data:/app/data
     ports:
       # <Host Port>:<Container Port>
-      - "3002:3001"
+      - "3003:3001"
     labels:
       com.getarcaneapp.arcane.icon: https://cdn.jsdelivr.net/gh/selfhst/icons@main/svg/uptime-kuma.svg
