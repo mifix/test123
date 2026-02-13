@@ -1,3 +1,8 @@
+x-arcane:
+  icon: https://cdn.jsdelivr.net/gh/selfhst/icons@main/svg/nginx-proxy-manager.svg
+  urls:
+    - https://nginxproxymanager.com/
+
 services:
   app:
     image: 'jc21/nginx-proxy-manager:2.13.6'
