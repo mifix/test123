@@ -5,7 +5,7 @@ x-arcane:
 
 services:
   app:
-    image: 'jc21/nginx-proxy-manager:2.13.6'
+    image: 'jc21/nginx-proxy-manager:2.13.7'
     restart: unless-stopped
 
     ports:
